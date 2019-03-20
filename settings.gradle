@@ -1,2 +1,6 @@
 rootProject.name = 'tangerine'
 
+include ':modules'
+include ':modules:tangerine-annotations'
+include ':modules:tangerine-core'
+include ':modules:tangerine-javac-plugin'
