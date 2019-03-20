@@ -1,0 +1,13 @@
+buildscript {
+  repositories {
+    gradlePluginPortal()
+  }
+  dependencies {
+    classpath 'io.franzbecker:gradle-lombok:2.1'
+  }
+}
+
+subprojects {
+  apply plugin: 'java-library'
+  apply plugin: 'io.franzbecker.gradle-lombok'
+}
